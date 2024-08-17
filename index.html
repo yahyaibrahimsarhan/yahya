@@ -1,0 +1,108 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <style>
+            .landing{
+                background-image: url( computer.jpg  );
+                width:100%;
+                height:100vh;
+                background-size:cover;
+                
+                
+                justify-content: space-between;
+                align-items: flex-start;
+                align-items: center;
+                text-align: center;
+            }
+            
+            img{
+                border-radius: 50%;
+                width: 200px; 
+                height: 200px;
+                object-fit: cover;
+                object-position: top;
+            }
+            
+            .about{
+                color: white;
+                font-size: 20px;
+                background: rgba(0, 0, 0, 0.3);
+                padding: 20px;
+                text-align: center;
+                text-transform: capitalize;
+                border-radius: 32px;
+            }
+
+            .website{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            input{
+
+                margin-top: 150px;
+                width: 50%;
+                height: 40px;
+                padding: 16px;
+                border-radius: 50px;
+                border: 2px solid grey;
+                outline: none;
+            }
+
+            .button-container{
+                 margin: 26px;
+            }
+
+
+            button:hover{
+                background: coral;
+                color: yellow;
+            }
+
+            button{
+                background-color: transparent;
+                border: 1px solid grey;
+                text-transform: capitalize;
+                cursor:  pointer;
+                padding: 15px 25px;
+                border-radius: 8px;
+                margin: 6px;
+                transition: 0.3s;
+            }
+
+        </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="yahya pic.jfif" type="image/x-icon">
+    <title>yahya website</title>
+</head>
+<body>
+    <div class="landing">
+
+        <div class="website">
+            <img src="yahya pic.jfif" alt="">
+            <div class="about">
+                <h2>my name is yahya</h2>   
+                <h3>Age:10</h3>
+                <span>school:ibdaa</span>
+            </div>
+        </div>
+
+        
+        <input type="search" placeholder="hi welcome to yehia website">
+
+        <div class="button-container">
+            <button>
+                sign in 
+            </button>
+
+            <button>
+                log in
+            </button>
+
+        </div>
+    </div>
+
+</body>
+</html>
